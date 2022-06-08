@@ -3,23 +3,23 @@ import ButtonInfo from "./ButtonInfo"
 function Presentation() {
     return (
         <>
-            <div className="text-base mb-10	">
+            <div className="text-base my-32 sm:text-center sm:text-4xl">
                 <p className="mb-2">OLÁ, EU SOU</p>
-                <h2 className="mb-2	text-4xl font-bold 
-            text-transparent bg-clip-text bg-gradient-to-r from-indigo-500
-             via-purple-500 to-pink-500">RODRIGO MENDES</h2>
+                <h2 className="w-fit mb-2 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-sky-500 to-emerald-400
+                sm:mx-auto sm:text-6xl sm:my-10">
+                RODRIGO MENDES</h2>
                 <p>DESENVOLVEDOR FRONT-END</p>
             </div>
-            <div className="flex-col flex justify-center items-center">
+            <div className="flex-row flex-wrap flex justify-center items-center">
                 <ButtonInfo
                     image={'./src/img/github.svg'}
-                    link={''}
+                    link={'https://github.com/roodrigoomendes'}
                     textbutton={"Github"}>
                 </ButtonInfo>
 
                 <ButtonInfo
                     image={'./src/img/linkedin.svg'}
-                    link={''}
+                    link={'https://www.linkedin.com/in/rodrigomendes-/'}
                     textbutton={"Linkedin"}>
                 </ButtonInfo>
                 
