@@ -10,7 +10,7 @@ function Presentation() {
              via-purple-500 to-pink-500">RODRIGO MENDES</h2>
                 <p>DESENVOLVEDOR FRONT-END</p>
             </div>
-            <div className="flex-wrap flex justify-around">
+            <div className="flex-col flex justify-center items-center">
                 <ButtonInfo
                     image={'./src/img/github.svg'}
                     link={''}

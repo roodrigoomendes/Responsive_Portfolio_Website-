@@ -6,7 +6,7 @@ import Presentation from './components/Presentation'
 import Aboutme from './components/Aboutme'
 import Project from './components/Project'
 import Title from './components/Title'
-import ButtonInfo from './components/ButtonInfo'
+
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
 
         <Title>SOBRE MIM</Title>
         <Aboutme />
-        <Title>TECNOLOGIAS</Title>
 
         <Title>PROJETOS</Title>
         <Project
