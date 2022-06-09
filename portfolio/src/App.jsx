@@ -41,7 +41,7 @@ function App() {
             title={'Portfolio'}
             tech={'ReactJs e TailwindCSS'}
             description={'Site de Portfolio de projetos pessoais'}
-            link={'https://13-slaca.vercel.app/'} >
+            link={'https://portfolio.vercel.app/'} >
           </Project>
         </div>
 
