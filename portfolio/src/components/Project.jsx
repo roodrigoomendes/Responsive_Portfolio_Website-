@@ -1,8 +1,11 @@
 
-function Project({ image, title, description, link }) {
+function Project({ image, title, tech, description, link }) {
     return (
 
-        <div className="mb-16 text-base font-light w-11/12 flex flex-col text-justify justify-center items-center content-center ">
+        <div className="mb-20 border border-gray-600 rounded-md mx-auto sm:text-xl
+                text-base font-light flex flex-col justify-items-start 
+                items-center  sm:w-2/5 sm:text-center p-8 ">
+            <h4 className="font-bold text-2xl mb-4"> {title} </h4>
             <img className="mb-4" src={image} />
 
 
@@ -12,18 +15,18 @@ function Project({ image, title, description, link }) {
                     opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
 
                     <div class="relative px-5 py-5 bg-black  rounded-lg leading-none flex">
-                        
-                        <img className="mr-4" src='./src/img/link.svg' alt=""  />
-                        <a href={link} target="_blank"> 
-                        Visualizar
+
+                        <img className="mr-4" src='./src/img/link.svg' alt="" />
+                        <a href={link} target="_blank">
+                            Visualizar
                         </a>
-                        
+
                     </div>
                 </div>
             </div>
 
-            <h4 className="font-bold text-2xl mb-4"> {title} </h4>
             <p className="mb-8" >{description} </p>
+            <p>{tech}</p>
         </div>
     )
 }

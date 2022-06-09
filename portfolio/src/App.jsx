@@ -10,7 +10,7 @@ import Title from './components/Title'
 
 function App() {
   return (
-    <div className='ml-6'>
+    <div className=''>
       <div>
         <NavBar />
         <Presentation />
@@ -19,20 +19,31 @@ function App() {
         <Aboutme />
 
         <Title>PROJETOS</Title>
-        <Project
-          description={'Site de uma agência de viagem, desenvolvido aplicando o conhecimento de HTML e CSS com implementação do Googlemaps com Javascript'}
-          image={'./src/img/Travel_Agency.png'}
-          title={'Travel Agency'}
-          link={'https://travel-agency-weld.vercel.app/'} >
-        </Project>
-        <Project
-          description={'Pagina institucional do evento 13° Slaca feita para avaliação de estágio Front-End, composto por HTML e CSS com interações e criação de elementos em Javascript'}
-          image={'./src/img/SLACA.png'}
-          title={'Slaca 13'}
-          link={'https://13-slaca.vercel.app/'} >
-        </Project>
+        <div className='sm:flex'>
+          <Project
+            image={'./src/img/Travel_Agency.png'}
+            title={'Travel Agency'}
+            tech={'HTML, CSS, Javascript vanilla'}
+            description={'Site de uma agência de viagem, desenvolvido aplicando o conhecimento de HTML e CSS com implementação do Googlemaps com Javascript'}
+            link={'https://travel-agency-weld.vercel.app/'} >
+          </Project>
 
+          <Project
+            image={'./src/img/SLACA.png'}
+            title={'Slaca 13'}
+            tech={'HTML, CSS, Javascript vanilla'}
+            description={'Pagina institucional do evento 13° Slaca feita para avaliação de estágio Front-End, composto por HTML e CSS com interações e criação de elementos em Javascript'}
+            link={'https://13-slaca.vercel.app/'} >
+          </Project>
 
+          <Project
+            image={'./src/img/portfolio.png'}
+            title={'Portfolio'}
+            tech={'ReactJs e TailwindCSS'}
+            description={'Site de Portfolio de projetos pessoais'}
+            link={'https://13-slaca.vercel.app/'} >
+          </Project>
+        </div>
 
       </div>
     </div>
