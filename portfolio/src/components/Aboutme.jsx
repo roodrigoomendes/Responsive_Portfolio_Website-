@@ -2,7 +2,7 @@
 function Aboutme() {
     return (
         <>
-        <div className="mb-9 sm:w-3/4  text-center mx-auto sm:text-2xl">
+        <div className="mb-9 text-center mx-auto sm:w-3/4 sm:text-2xl">
             <h3 className="font-medium mb-3" >São Paulo, Brasil</h3>
             <p className="font-light mb-3 text-center px-6">
                 Estudante em Análise e desenvolvimento de sistemas.

@@ -3,7 +3,7 @@ import ButtonInfo from "./ButtonInfo"
 function Presentation() {
     return (
         <>
-            <div className="text-base my-36 text-center sm:text-4xl">
+            <div className="text-base my-40 text-center sm:text-4xl">
                 <p className="mb-2">OLÁ, EU SOU</p>
                 <h2 className="w-fit mb-2 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-sky-500 to-emerald-400
                 mx-auto sm:text-6xl sm:my-10">
@@ -23,11 +23,12 @@ function Presentation() {
                     textbutton={"Linkedin"}>
                 </ButtonInfo>
                 
-                <ButtonInfo
+      {/*          <ButtonInfo
                     image={'./src/img/download.svg'}
                     link={''}
                     textbutton={"Curriculo"}>
                 </ButtonInfo>
+        */}
 
             </div>
         </>

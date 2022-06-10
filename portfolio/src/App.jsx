@@ -6,6 +6,7 @@ import Presentation from './components/Presentation'
 import Aboutme from './components/Aboutme'
 import Project from './components/Project'
 import Title from './components/Title'
+import Tech from './components/tech'
 
 
 function App() {
@@ -17,9 +18,10 @@ function App() {
 
         <Title>SOBRE MIM</Title>
         <Aboutme />
-
+        <Title>CONHECIMENTO</Title>
+        <Tech/>
         <Title>PROJETOS</Title>
-        <div className='sm:flex'>
+        <div className='flex flex-wrap justify-center'>
           <Project
             image={'./src/img/Travel_Agency.png'}
             title={'Travel Agency'}
