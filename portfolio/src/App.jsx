@@ -6,7 +6,8 @@ import Presentation from './components/Presentation'
 import Aboutme from './components/Aboutme'
 import Project from './components/Project'
 import Title from './components/Title'
-import Tech from './components/tech'
+import Skill from './components/skill'
+
 
 
 function App() {
@@ -18,8 +19,7 @@ function App() {
 
         <Title>SOBRE MIM</Title>
         <Aboutme />
-        <Title>CONHECIMENTO</Title>
-        <Tech/>
+        <Skill/>
         <Title>PROJETOS</Title>
         <div className='flex flex-wrap justify-center'>
           <Project
