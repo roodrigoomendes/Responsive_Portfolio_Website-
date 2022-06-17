@@ -1,7 +1,6 @@
 
 import React from 'react'
 import './index.css'
-import NavBar from './components/NavBar'
 import Presentation from './components/Presentation'
 import Aboutme from './components/Aboutme'
 import Project from './components/Project'
@@ -10,16 +9,15 @@ import Skill from './components/skill'
 
 
 
+
 function App() {
   return (
     <div className=''>
       <div>
-        <NavBar />
         <Presentation />
-
         <Title>SOBRE MIM</Title>
         <Aboutme />
-        <Skill/>
+        <Skill />
         <Title>PROJETOS</Title>
         <div className='flex flex-wrap justify-center'>
           <Project
@@ -43,7 +41,7 @@ function App() {
             title={'Portfolio'}
             tech={'ReactJs e TailwindCSS'}
             description={'Site de Portfolio de projetos pessoais'}
-            link={'https://portfolio.vercel.app/'} >
+            link={''} >
           </Project>
         </div>
 
